@@ -16,10 +16,10 @@
 
 class Employee {
   // Заповніть модифікатори доступу
-   constructor(
+  constructor(
     public name: string,
     private department: string,
-    protected salary: number,
+    protected salary: number
   ) {}
 
   getEmployeeDetails() {
